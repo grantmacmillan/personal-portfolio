@@ -1,6 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import React from "react";
 
 const container = {
   hidden: {},
@@ -9,6 +10,13 @@ const container = {
       staggerChildren: 0.2,
     },
   },
+};
+
+const handleProject2DemoClicked = () => {
+  window.open("https://www.youtube.com/", "_blank");
+};
+const handleProject2CodeClicked = () => {
+  window.open("https://github.com/grantmacmillan", "_blank");
 };
 
 const projectVariant = {
@@ -30,6 +38,7 @@ const Project = ({ title }) => {
           porttitor accumsan tincidunt.
         </p>
       </div>
+      
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
     </motion.div>
   );
@@ -47,10 +56,31 @@ const Project2 = ({ title }) => {
         <p className="mt-7">
           SECOND PROJECT with alot ueh sf ubsefu bseubf uesfb usebf useb fuseb fusbe fusebf uesb fub
         </p>
-        
+        <br></br>
+        <div style={{ whiteSpace: "nowrap" }}>
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject2DemoClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block" }}
+  >
+    Live Demo 
+  </button>
+
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject2CodeClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block", marginLeft: "16px" }}
+  >
+    Code
+  </button>
+</div>
 
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/sneakcrop2.png`} alt={projectTitle} />
 
       
     </motion.div>
@@ -104,7 +134,7 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project title="Project 1" />
-          <Project2 title="Project 2" />
+          <Project2 title="Sneak" />
 
           {/* ROW 2 */}
           <Project title="Project 3" />
