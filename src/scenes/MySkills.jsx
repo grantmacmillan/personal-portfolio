@@ -18,8 +18,8 @@ const MySkills = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <p className="font-playfair font-semibold text-4xl mb-5 text-red">
-          My Skills
+        <p className="font-playfair font-semibold text-4xl mb-5 text-white">
+        <span className="text-purple">My </span>Skills
         </p>
         <LineGradient width="mx-auto w-2/5" />
         <p className="mt-10">

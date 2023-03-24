@@ -12,6 +12,13 @@ const container = {
   },
 };
 
+const handleProject1DemoClicked = () => {
+  window.open("https://www.youtube.com/", "_blank");
+};
+const handleProject1CodeClicked = () => {
+  window.open("https://github.com/grantmacmillan", "_blank");
+};
+
 const handleProject2DemoClicked = () => {
   window.open("https://www.youtube.com/", "_blank");
 };
@@ -19,12 +26,41 @@ const handleProject2CodeClicked = () => {
   window.open("https://github.com/grantmacmillan", "_blank");
 };
 
+const handleProject3DemoClicked = () => {
+  window.open("https://www.youtube.com/", "_blank");
+};
+const handleProject3CodeClicked = () => {
+  window.open("https://github.com/grantmacmillan", "_blank");
+};
+
+const handleProject4DemoClicked = () => {
+  window.open("https://www.youtube.com/", "_blank");
+};
+const handleProject4CodeClicked = () => {
+  window.open("https://github.com/grantmacmillan", "_blank");
+};
+
+const handleProject5DemoClicked = () => {
+  window.open("https://www.youtube.com/", "_blank");
+};
+const handleProject5CodeClicked = () => {
+  window.open("https://github.com/grantmacmillan", "_blank");
+};
+
+const handleProject6DemoClicked = () => {
+  window.open("https://www.youtube.com/", "_blank");
+};
+const handleProject6CodeClicked = () => {
+  window.open("https://github.com/grantmacmillan", "_blank");
+};
+
+
 const projectVariant = {
   hidden: { opacity: 0, scale: 0.8 },
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project1 = ({ title }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -34,12 +70,36 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+        Origins’ Fall is a 2D platformer created by God Squad Studios in 2021. I took the role of Programming Lead during this project's development. 
+
         </p>
+        <br></br>
+        <div style={{ whiteSpace: "nowrap" }}>
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject1DemoClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block" }}
+  >
+    Live Demo 
+  </button>
+
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject1CodeClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block", marginLeft: "16px" }}
+  >
+    Code
+  </button>
+</div>
+
       </div>
+      <img src={`../assets/originsfallcrop.png`} alt={projectTitle} />
+
       
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -54,7 +114,7 @@ const Project2 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          SECOND PROJECT with alot ueh sf ubsefu bseubf uesfb usebf useb fuseb fusbe fusebf uesb fub
+        Sneak is a 3D First Person Shooter, made with Unity URP and the new Unity input system. Sneak was created by my colleague Ben and I in fall of 2022.
         </p>
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
@@ -80,7 +140,180 @@ const Project2 = ({ title }) => {
 </div>
 
       </div>
-      <img src={`../assets/sneakcrop2.png`} alt={projectTitle} />
+      <img src={`../assets/sneakcrop5.png`} alt={projectTitle} />
+
+      
+    </motion.div>
+  );
+};
+
+const Project3 = ({ title }) => {
+  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+  const projectTitle = title.split(" ").join("-").toLowerCase();
+
+  return (
+    <motion.div variants={projectVariant} className="relative">
+      <div className={overlayStyles}>
+        <p className="text-2xl font-playfair">{title}</p>
+        <p className="mt-7">
+        Shape Survival is a 3D shoot 'em up arcade survival game, with rogue-like aspects at its core. My colleague Ben and I created this game in Unity, using the new Unity input system.
+        </p>
+        <br></br>
+        <div style={{ whiteSpace: "nowrap" }}>
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject3DemoClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block" }}
+  >
+    Live Demo 
+  </button>
+
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject3CodeClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block", marginLeft: "16px" }}
+  >
+    Code
+  </button>
+</div>
+
+      </div>
+      <img src={`../assets/shapesurivialcrop.png`} alt={projectTitle} />
+
+      
+    </motion.div>
+  );
+};
+
+const Project4 = ({ title }) => {
+  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+  const projectTitle = title.split(" ").join("-").toLowerCase();
+
+  return (
+    <motion.div variants={projectVariant} className="relative">
+      <div className={overlayStyles}>
+        <p className="text-2xl font-playfair">{title}</p>
+        <p className="mt-7">
+        In Orbit was created by God Squad Studios in March of 2023. It is a gamepad controlled puzzle game. In Orbit was awarded 1st place in the Marion Surgical Hackathon.
+        </p>
+        <br></br>
+        <div style={{ whiteSpace: "nowrap" }}>
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject4DemoClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block" }}
+  >
+    Live Demo 
+  </button>
+
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject4CodeClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block", marginLeft: "16px" }}
+  >
+    Code
+  </button>
+</div>
+
+      </div>
+      <img src={`../assets/inorbit3.png`} alt={projectTitle} />
+
+      
+    </motion.div>
+  );
+};
+
+const Project5 = ({ title }) => {
+  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+  const projectTitle = title.split(" ").join("-").toLowerCase();
+
+  return (
+    <motion.div variants={projectVariant} className="relative">
+      <div className={overlayStyles}>
+        <p className="text-2xl font-playfair">{title}</p>
+        <p className="mt-7">
+        Rhythm Road is a 3D endless runner game that utilizies music to enhance the gameplay experience. Players must synchronize their actions to the rhythm of the music in order to progress through the levels. 
+
+        </p>
+        <br></br>
+        <div style={{ whiteSpace: "nowrap" }}>
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject5DemoClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block" }}
+  >
+    Live Demo 
+  </button>
+
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject5CodeClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block", marginLeft: "16px" }}
+  >
+    Code
+  </button>
+</div>
+
+      </div>
+      <img src={`../assets/rythmroadcrop.png`} alt={projectTitle} />
+
+      
+    </motion.div>
+  );
+};
+
+const Project6 = ({ title }) => {
+  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+  const projectTitle = title.split(" ").join("-").toLowerCase();
+
+  return (
+    <motion.div variants={projectVariant} className="relative">
+      <div className={overlayStyles}>
+        <p className="text-2xl font-playfair">{title}</p>
+        <p className="mt-7">
+          Served Up is a western style, bar management game currently in development by God Squad Studios. The players objective is to mix drinks with the available ingredients and serve them to incoming saloon customers.
+        </p>
+        <br></br>
+        <div style={{ whiteSpace: "nowrap" }}>
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject6DemoClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block" }}
+  >
+    Live Demo 
+  </button>
+
+  <button
+    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+    onClick={handleProject6CodeClicked}
+    href="https://www.youtube.com/"
+    style={{ display: "inline-block", marginLeft: "16px" }}
+  >
+    Code
+  </button>
+</div>
+
+      </div>
+      <img src={`../assets/comingsooncrop.png`} alt={projectTitle} />
 
       
     </motion.div>
@@ -104,16 +337,14 @@ const Projects = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-red">PRO</span>JECTS
+            <span className="text-purple">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient width="w-2/3" />
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+        I’ve brought many game prototypes to life. See below for some of my highlights!
         </p>
       </motion.div>
 
@@ -127,29 +358,18 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <div
-            className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            BEAUTIFUL USER INTERFACES
-          </div>
-          <Project title="Project 1" />
+          
+          <Project1 title="Origins' Fall" />
           <Project2 title="Sneak" />
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project3 title="Shape Survival" />
+          <Project4 title="In Orbit" />
+          <Project5 title="Rythm Road" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
-          <div
-            className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            SMOOTH USER EXPERIENCE
-          </div>
+          <Project6 title="Served Up" />
+          
         </motion.div>
       </div>
     </section>
