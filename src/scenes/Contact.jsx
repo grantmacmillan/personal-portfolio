@@ -127,12 +127,16 @@ const Contact = () => {
               </p>
             )}
 
+            
+
             <button
-              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
-              type="submit"
-            >
-              SEND ME A MESSAGE
-            </button>
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
+    hover:bg-blue hover:text-white transition duration-500 mt-5"
+    type="submit"
+    style={{ display: "inline-block"}}
+  >
+    Send Message
+  </button>
           </form>
         </motion.div>
       </div>
