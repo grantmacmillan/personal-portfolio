@@ -313,7 +313,7 @@ const Project6 = ({ title }) => {
 </div>
 
       </div>
-      <img src={`../assets/comingsooncrop.png`} alt={projectTitle} />
+      <img src={`../assets/servedUpPurple.png`} alt={projectTitle} />
 
       
     </motion.div>
@@ -337,7 +337,7 @@ const Projects = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-purple">PRO</span>JECTS
+            <span>PROJECTS</span>
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient width="w-2/3" />
