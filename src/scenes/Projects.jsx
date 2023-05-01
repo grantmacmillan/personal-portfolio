@@ -16,21 +16,21 @@ const handleProject1DemoClicked = () => {
   window.open("https://www.youtube.com/", "_blank");
 };
 const handleProject1CodeClicked = () => {
-  window.open("https://github.com/grantmacmillan", "_blank");
+  window.open("https://github.com/marcusngooi/COMP305-001-Game-Project", "_blank");
 };
 
 const handleProject2DemoClicked = () => {
   window.open("https://www.youtube.com/", "_blank");
 };
 const handleProject2CodeClicked = () => {
-  window.open("https://github.com/grantmacmillan", "_blank");
+  window.open("https://github.com/grantmacmillan/COMP396_Project", "_blank");
 };
 
 const handleProject3DemoClicked = () => {
   window.open("https://www.youtube.com/", "_blank");
 };
 const handleProject3CodeClicked = () => {
-  window.open("https://github.com/grantmacmillan", "_blank");
+  window.open("https://github.com/Ben-Coombes/COMP394_ShapeSurvival", "_blank");
 };
 
 const handleProject4DemoClicked = () => {
@@ -44,14 +44,14 @@ const handleProject5DemoClicked = () => {
   window.open("https://www.youtube.com/", "_blank");
 };
 const handleProject5CodeClicked = () => {
-  window.open("https://github.com/grantmacmillan", "_blank");
+  window.open("https://github.com/Ben-Coombes/Rhythm-Road/tree/main", "_blank");
 };
 
 const handleProject6DemoClicked = () => {
   window.open("https://www.youtube.com/", "_blank");
 };
 const handleProject6CodeClicked = () => {
-  window.open("https://github.com/grantmacmillan", "_blank");
+  window.open("https://github.com/CCGPProjects2020-2023/served-up", "_blank");
 };
 
 
@@ -202,27 +202,12 @@ const Project4 = ({ title }) => {
         <p className="mt-7">
         In Orbit was created by God Squad Studios in March of 2023. It is a gamepad controlled puzzle game. In Orbit was awarded 1st place in the Marion Surgical Hackathon.
         </p>
+        <p className="mt-7">
+        *Code unavailable due to NDA agreement.*
+        </p>
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
-    hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject4DemoClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block" }}
-  >
-    Live Demo 
-  </button>
-
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
-    hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject4CodeClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block", marginLeft: "16px" }}
-  >
-    Code
-  </button>
+  
 </div>
 
       </div>
