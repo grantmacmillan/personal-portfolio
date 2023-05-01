@@ -76,7 +76,7 @@ const Project1 = ({ title }) => {
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject1DemoClicked}
     href="https://www.youtube.com/"
@@ -86,7 +86,7 @@ const Project1 = ({ title }) => {
   </button>
 
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject1CodeClicked}
     href="https://www.youtube.com/"
@@ -119,7 +119,7 @@ const Project2 = ({ title }) => {
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject2DemoClicked}
     href="https://www.youtube.com/"
@@ -129,7 +129,7 @@ const Project2 = ({ title }) => {
   </button>
 
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject2CodeClicked}
     href="https://www.youtube.com/"
@@ -162,7 +162,7 @@ const Project3 = ({ title }) => {
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject3DemoClicked}
     href="https://www.youtube.com/"
@@ -172,7 +172,7 @@ const Project3 = ({ title }) => {
   </button>
 
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject3CodeClicked}
     href="https://www.youtube.com/"
@@ -205,7 +205,7 @@ const Project4 = ({ title }) => {
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject4DemoClicked}
     href="https://www.youtube.com/"
@@ -215,7 +215,7 @@ const Project4 = ({ title }) => {
   </button>
 
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject4CodeClicked}
     href="https://www.youtube.com/"
@@ -249,7 +249,7 @@ const Project5 = ({ title }) => {
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject5DemoClicked}
     href="https://www.youtube.com/"
@@ -259,7 +259,7 @@ const Project5 = ({ title }) => {
   </button>
 
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject5CodeClicked}
     href="https://www.youtube.com/"
@@ -292,7 +292,7 @@ const Project6 = ({ title }) => {
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-3 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject6DemoClicked}
     href="https://www.youtube.com/"
@@ -302,7 +302,7 @@ const Project6 = ({ title }) => {
   </button>
 
   <button
-    className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-8 font-semibold
+    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={handleProject6CodeClicked}
     href="https://www.youtube.com/"
