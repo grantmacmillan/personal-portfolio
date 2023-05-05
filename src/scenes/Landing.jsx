@@ -2,9 +2,13 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import resume from "../assets/GrantMacMillanResume.pdf";
 
 const downloadResume = () => {
-  window.open("https://www.youtube.com/", "_blank");
+  const link = document.createElement("a");
+  link.href = "../assets/GrantMacMillanResume.pdf";
+  link.download = "GrantMacMillanResume.pdf";
+  link.click();
 };
 
 const Landing = ({ setSelectedPage }) => {
@@ -91,7 +95,7 @@ const Landing = ({ setSelectedPage }) => {
     className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
     onClick={downloadResume}
-    href="https://www.youtube.com/"
+    href={resume} download="Resume"
     style={{ display: "inline-block", marginLeft: "16px" }}
   >
     Resume
