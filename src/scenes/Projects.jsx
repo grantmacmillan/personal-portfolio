@@ -13,14 +13,14 @@ const container = {
 };
 
 const handleProject1DemoClicked = () => {
-  window.open("https://www.youtube.com/", "_blank");
+  window.open("https://www.youtube.com/watch?v=wXPcmL1Q6jk&ab_channel=GrantMacMillan", "_blank");
 };
 const handleProject1CodeClicked = () => {
   window.open("https://github.com/marcusngooi/COMP305-001-Game-Project", "_blank");
 };
 
 const handleProject2DemoClicked = () => {
-  window.open("https://www.youtube.com/", "_blank");
+  window.open("https://www.youtube.com/watch?v=CcOPiBbpAnM&ab_channel=GrantMacMillan", "_blank");
 };
 const handleProject2CodeClicked = () => {
   window.open("https://github.com/grantmacmillan/COMP396_Project", "_blank");
