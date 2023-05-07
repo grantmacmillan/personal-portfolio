@@ -27,7 +27,7 @@ const handleProject2CodeClicked = () => {
 };
 
 const handleProject3DemoClicked = () => {
-  window.open("https://www.youtube.com/", "_blank");
+  window.open("https://www.youtube.com/watch?v=o9Z-9dYGfU8&ab_channel=GrantMacMillan", "_blank");
 };
 const handleProject3CodeClicked = () => {
   window.open("https://github.com/Ben-Coombes/COMP394_ShapeSurvival", "_blank");
@@ -41,14 +41,14 @@ const handleProject4CodeClicked = () => {
 };
 
 const handleProject5DemoClicked = () => {
-  window.open("https://www.youtube.com/", "_blank");
+  window.open("https://www.youtube.com/watch?v=yDQ9eetbSy4&ab_channel=GrantMacMillan", "_blank");
 };
 const handleProject5CodeClicked = () => {
   window.open("https://github.com/Ben-Coombes/Rhythm-Road/tree/main", "_blank");
 };
 
 const handleProject6DemoClicked = () => {
-  window.open("https://www.youtube.com/", "_blank");
+  window.open("https://www.youtube.com/watch?v=RPD6PTFsQ6s&ab_channel=GrantMacMillan", "_blank");
 };
 const handleProject6CodeClicked = () => {
   window.open("https://github.com/CCGPProjects2020-2023/served-up", "_blank");
@@ -203,7 +203,7 @@ const Project4 = ({ title }) => {
         In Orbit was created by God Squad Studios in March of 2023. It is a gamepad controlled puzzle game. In Orbit was awarded 1st place in the Marion Surgical Hackathon.
         </p>
         <p className="mt-7">
-        *Code unavailable due to NDA agreement.*
+        *Code unavailable due to non-disclosure agreement.*
         </p>
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
@@ -350,7 +350,7 @@ const Projects = () => {
           {/* ROW 2 */}
           <Project3 title="Shape Survival" />
           <Project4 title="In Orbit" />
-          <Project5 title="Rythm Road" />
+          <Project5 title="Rhythm Road" />
 
           {/* ROW 3 */}
           <Project6 title="Served Up" />
