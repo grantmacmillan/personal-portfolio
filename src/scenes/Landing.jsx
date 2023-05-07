@@ -6,7 +6,7 @@ import resume from "../assets/GrantMacMillanResume.pdf";
 
 const downloadResume = () => {
   const link = document.createElement("a");
-  link.href = "../assets/GrantMacMillanResume.pdf";
+  link.href = "../assets/Resume123.pdf";
   link.download = "GrantMacMillanResume.pdf";
   link.click();
 };
