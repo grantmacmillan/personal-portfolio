@@ -12,10 +12,10 @@ const Landing = ({ setSelectedPage }) => {
   return (
     <section
       id="about"
-      className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
+      className="md:flex md:justify-between md:items-center gap-16 md:h-full"
     >
       {/* IMAGE SECTION */}
-      <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center">
+      <div className="basis-3/5 z-10 mt-16 md:mt-16 flex justify-center">
         {isAboveLarge ? (
           <div
           >
@@ -35,7 +35,7 @@ const Landing = ({ setSelectedPage }) => {
       </div>
 
       {/* MAIN TEXT */}
-      <div className="z-30 basis-2/5 mt-12 md:mt-32">
+      <div className="z-30 basis-2/5 md:mt-16">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"

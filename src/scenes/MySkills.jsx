@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-32 pb-16">
+    <section id="skills" className="pt-16 pb-16">
       {/* HEADING */}
       <motion.div
         className="md:w-1/3 text-center md:text-left"

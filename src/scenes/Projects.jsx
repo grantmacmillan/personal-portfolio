@@ -70,36 +70,36 @@ const Project1 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-        Origins’ Fall is a 2D platformer created by God Squad Studios in 2021. I took the role of Programming Lead during this project's development. 
+          Origins’ Fall is a 2D platformer created by God Squad Studios in 2021. I took the role of Programming Lead during this project's development.
 
         </p>
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject1DemoClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block" }}
-  >
-    Live Demo 
-  </button>
+            onClick={handleProject1DemoClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block" }}
+          >
+            Live Demo
+          </button>
 
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject1CodeClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block", marginLeft: "16px" }}
-  >
-    Code
-  </button>
-</div>
+            onClick={handleProject1CodeClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block", marginLeft: "16px" }}
+          >
+            Code
+          </button>
+        </div>
 
       </div>
       <img src={`../assets/originsfallcrop.png`} alt={projectTitle} />
 
-      
+
     </motion.div>
   );
 };
@@ -114,35 +114,35 @@ const Project2 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-        Sneak is a 3D First Person Shooter, made with Unity URP and the new Unity input system. Sneak was created by my colleague Ben and I in fall of 2022.
+          Sneak is a 3D First Person Shooter, made with Unity URP and the new Unity input system. Sneak was created by my colleague Ben and I in fall of 2022.
         </p>
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject2DemoClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block" }}
-  >
-    Live Demo 
-  </button>
+            onClick={handleProject2DemoClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block" }}
+          >
+            Live Demo
+          </button>
 
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject2CodeClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block", marginLeft: "16px" }}
-  >
-    Code
-  </button>
-</div>
+            onClick={handleProject2CodeClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block", marginLeft: "16px" }}
+          >
+            Code
+          </button>
+        </div>
 
       </div>
       <img src={`../assets/sneakcrop5.png`} alt={projectTitle} />
 
-      
+
     </motion.div>
   );
 };
@@ -157,35 +157,35 @@ const Project3 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-        Shape Survival is a 3D shoot 'em up arcade survival game, with rogue-like aspects at its core. My colleague Ben and I created this game in Unity, using the new Unity input system.
+          Shape Survival is a 3D shoot 'em up arcade survival game, with rogue-like aspects at its core. My colleague Ben and I created this game in Unity, using the new Unity input system.
         </p>
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject3DemoClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block" }}
-  >
-    Live Demo 
-  </button>
+            onClick={handleProject3DemoClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block" }}
+          >
+            Live Demo
+          </button>
 
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject3CodeClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block", marginLeft: "16px" }}
-  >
-    Code
-  </button>
-</div>
+            onClick={handleProject3CodeClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block", marginLeft: "16px" }}
+          >
+            Code
+          </button>
+        </div>
 
       </div>
       <img src={`../assets/shapesurivialcrop.png`} alt={projectTitle} />
 
-      
+
     </motion.div>
   );
 };
@@ -200,20 +200,20 @@ const Project4 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-        In Orbit was created by God Squad Studios in March of 2023. It is a gamepad controlled puzzle game. In Orbit was awarded 1st place in the Marion Surgical Hackathon.
+          In Orbit was created by God Squad Studios in March of 2023. It is a gamepad controlled puzzle game. In Orbit was awarded 1st place in the Marion Surgical Hackathon.
         </p>
         <p className="mt-7">
-        *Code unavailable due to non-disclosure agreement.*
+          *Code unavailable due to non-disclosure agreement.*
         </p>
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
-  
-</div>
+
+        </div>
 
       </div>
       <img src={`../assets/inorbit3.png`} alt={projectTitle} />
 
-      
+
     </motion.div>
   );
 };
@@ -228,36 +228,36 @@ const Project5 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-        Rhythm Road is a 3D endless runner game that utilizies music to enhance the gameplay experience. Players must synchronize their actions to the rhythm of the music in order to progress through the levels. 
+          Rhythm Road is a 3D endless runner game that utilizies music to enhance the gameplay experience. Players must synchronize their actions to the rhythm of the music in order to progress through the levels.
 
         </p>
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject5DemoClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block" }}
-  >
-    Live Demo 
-  </button>
+            onClick={handleProject5DemoClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block" }}
+          >
+            Live Demo
+          </button>
 
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject5CodeClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block", marginLeft: "16px" }}
-  >
-    Code
-  </button>
-</div>
+            onClick={handleProject5CodeClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block", marginLeft: "16px" }}
+          >
+            Code
+          </button>
+        </div>
 
       </div>
       <img src={`../assets/rythmroadcrop.png`} alt={projectTitle} />
 
-      
+
     </motion.div>
   );
 };
@@ -276,38 +276,38 @@ const Project6 = ({ title }) => {
         </p>
         <br></br>
         <div style={{ whiteSpace: "nowrap" }}>
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-3 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject6DemoClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block" }}
-  >
-    Live Demo 
-  </button>
+            onClick={handleProject6DemoClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block" }}
+          >
+            Live Demo
+          </button>
 
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
+          <button
+            className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={handleProject6CodeClicked}
-    href="https://www.youtube.com/"
-    style={{ display: "inline-block", marginLeft: "16px" }}
-  >
-    Code
-  </button>
-</div>
+            onClick={handleProject6CodeClicked}
+            href="https://www.youtube.com/"
+            style={{ display: "inline-block", marginLeft: "16px" }}
+          >
+            Code
+          </button>
+        </div>
 
       </div>
       <img src={`../assets/servedUpPurple.png`} alt={projectTitle} />
 
-      
+
     </motion.div>
   );
 };
 
 const Projects = () => {
   return (
-    <section id="projects" className="pt-48 pb-48">
+    <section id="projects" className="pt-16 pb-16">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto text-center"
@@ -329,7 +329,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-        I’ve brought many game prototypes to life. See below for some of my highlights!
+          I’ve brought many game prototypes to life. See below for some of my highlights!
         </p>
       </motion.div>
 
@@ -343,7 +343,7 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          
+
           <Project1 title="Origins' Fall" />
           <Project2 title="Sneak" />
 
@@ -354,7 +354,7 @@ const Projects = () => {
 
           {/* ROW 3 */}
           <Project6 title="Served Up" />
-          
+
         </motion.div>
       </div>
     </section>
