@@ -62,7 +62,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-          Passionate game developer seeking full-time opportunities to bring fresh ideas to the gaming industry.
+            Passionate game developer with experience as a front-end developer, actively seeking full-time opportunities to bring fresh ideas to the gaming industry.
           </p>
         </motion.div>
 
@@ -78,29 +78,29 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          
-          
-          <div style={{ whiteSpace: "nowrap" }}>
-  <AnchorLink
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-5 font-semibold
-    hover:bg-blue hover:text-white transition duration-500"
-    onClick={() => setSelectedPage("contact")}
-            href="#contact"
-    style={{ display: "inline-block" }}
-  >
-    Contact Me 
-  </AnchorLink>
 
-  <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
+
+          <div style={{ whiteSpace: "nowrap" }}>
+            <AnchorLink
+              className="bg-yellow text-deep-blue rounded-sm py-3 px-5 font-semibold
     hover:bg-blue hover:text-white transition duration-500"
-    onClick={downloadResume}
-    href={resume} download="Resume"
-    style={{ display: "inline-block", marginLeft: "16px" }}
-  >
-    Resume
-  </button>
-</div>
+              onClick={() => setSelectedPage("contact")}
+              href="#contact"
+              style={{ display: "inline-block" }}
+            >
+              Contact Me
+            </AnchorLink>
+
+            <button
+              className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
+    hover:bg-blue hover:text-white transition duration-500"
+              onClick={downloadResume}
+              href={resume} download="Resume"
+              style={{ display: "inline-block", marginLeft: "16px" }}
+            >
+              Resume
+            </button>
+          </div>
 
         </motion.div>
 

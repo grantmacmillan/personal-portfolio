@@ -6,9 +6,8 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
   return (
     <AnchorLink
-      className={`${
-        selectedPage === lowerCasePage ? "text-yellow" : ""
-      } hover:text-yellow transition duration-500`}
+      className={`${selectedPage === lowerCasePage ? "text-yellow" : ""
+        } hover:text-yellow transition duration-500`}
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
@@ -36,12 +35,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Skills"
+              page="Projects"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Projects"
+              page="Skills"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
@@ -67,7 +66,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* MOBILE MENU POPUP */}
         {!isDesktop && isMenuToggled && (
-          <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
+          <div className="fixed right-0 bottom-0 h-full bg-purple w-[300px]">
             {/* CLOSE ICON */}
             <div className="flex justify-end p-12">
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
@@ -76,7 +75,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             </div>
 
             {/* MENU ITEMS */}
-            <div className="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
+            <div className="flex flex-col gap-10 ml-[33%] text-2xl">
               <Link
                 page="Home"
                 selectedPage={selectedPage}
