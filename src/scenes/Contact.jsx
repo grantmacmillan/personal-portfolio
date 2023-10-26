@@ -34,10 +34,10 @@ const Contact = () => {
         <div>
           <p className="font-playfair font-semibold text-4xl">
             CONTACT{" "}
-            <span className="text-purple">ME</span> 
+            <span className="text-purple">ME</span>
           </p>
           <div className="flex md:justify-end my-5">
-            <LineGradient width="w-1/2" />
+            <LineGradient width="w-4/5" />
           </div>
         </div>
       </motion.div>
@@ -55,7 +55,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/phoneIcon2.png" alt="contact" />
+          <img src="../assets/EmailIcon1.png" alt="contact" />
         </motion.div>
 
         <motion.div
@@ -127,16 +127,16 @@ const Contact = () => {
               </p>
             )}
 
-            
+
 
             <button
-    className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
+              className="bg-yellow text-deep-blue rounded-sm py-3 px-8 font-semibold
     hover:bg-blue hover:text-white transition duration-500 mt-5"
-    type="submit"
-    style={{ display: "inline-block"}}
-  >
-    Send Message
-  </button>
+              type="submit"
+              style={{ display: "inline-block" }}
+            >
+              Send Message
+            </button>
           </form>
         </motion.div>
       </div>

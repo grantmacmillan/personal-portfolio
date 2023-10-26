@@ -19,9 +19,9 @@ const MySkills = () => {
         }}
       >
         <p className="font-playfair font-semibold text-4xl mb-5 text-white">
-        <span className="text-purple">My </span>Skills
+          <span className="text-purple">My </span>Skills
         </p>
-        <LineGradient width="mx-auto w-2/5" />
+        <LineGradient width="mx-auto w-5/5" />
         <p className="mt-10">
           Here's what I can offer you.
         </p>
@@ -44,7 +44,7 @@ const MySkills = () => {
           <p className="font-playfair text-center text-6xl">UNITY</p>
           <br></br>
           <p className="text-center text-xl">
-          Unity 3D, Unity 2D, Navmesh, URP, Animation, UI
+            Unity 3D, Unity 2D, Navmesh, URP, Animation, UI
           </p>
         </motion.div>
 
@@ -63,7 +63,7 @@ const MySkills = () => {
           <p className="font-playfair text-center text-6xl">C#</p>
           <br></br>
           <p className="text-center text-xl">
-          Events, WPF, .NET Core, Visual Studio, VS Code
+            Events, WPF, .NET Core, Visual Studio, VS Code
           </p>
         </motion.div>
 
@@ -82,7 +82,7 @@ const MySkills = () => {
           <p className="font-playfair text-center text-6xl">JS</p>
           <br></br>
           <p className="text-center text-xl">
-          Java Script, React, HTML, CSS, Node.js, MongoDB
+            Java Script, React, HTML, CSS, Node.js, MongoDB
           </p>
         </motion.div>
       </div>

@@ -58,19 +58,19 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-s text-center md:text-start">
-          Hello! My name is Grant MacMillan and I'm an aspiring game developer! I have recently graduated from Centennial College with an advanced diploma in Game Programming. I specialize in Unity and C#. I also have experience with Unreal Engine and C++. I have worked on a variety of projects including a tower defence game, a 2D platformer, multiple first person shooter games, a bartender simulation game and many more!
-          </p>
+            Hello! My name is Grant MacMillan and I'm an aspiring game developer! I have recently graduated from Centennial College with an advanced diploma in Game Programming. I currently work as a front-end developer for Digital Lift Consulting.          </p>
 
           <p className="mt-10 mb-7 text-s text-center md:text-start">
-          In addition to my work in game development, I also have experience working with computer hardware. I enjoy building computers in my free time and troubleshooting software. This experience has given me a strong foundation in computer systems, which has been beneficial in my game development work.
+            I specialize in Unity and C#, but I'm also proficient in Javascript, C++, and the Unreal Engine. Beyond my individual skills, I'm proud to share that I've co-founded an indie game studio, <a href="https://www.teahousestudios.ca/" target="_blank" rel="noopener noreferrer" className="text-yellow">TeaHouse Creative Studios</a>. Our team is in the midst of developing our debut 2D puzzle platformer, slated for release in Q2 2024.
           </p>
+          <p className="mt-10 mb-7 text-s text-center md:text-start">
+            Throughout my career, I've been involved in diverse projects, encompassing genres such as tower defense, 2D platformers, first-person shooters, and even a unique bartender simulation game.          </p>
 
           <p className="mt-10 mb-7 text-s text-center md:text-start">
-          When I'm not working on computers, I enjoy playing video games, golfing and fishing. 
-          </p>
+            Aside from my dedication to game development, I possess strong front-end development skills. I regularly work with React and React Native, crafting responsive web applications.</p>
         </motion.div>
 
-        
+
       </div>
     </section>
   );
