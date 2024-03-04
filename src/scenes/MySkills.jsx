@@ -82,7 +82,7 @@ const MySkills = () => {
           <p className="font-playfair text-center text-6xl">JS</p>
           <br></br>
           <p className="text-center text-xl">
-            Java Script, React, HTML, CSS, Node.js, MongoDB
+            Javascript, HTML, CSS, React, React Native
           </p>
         </motion.div>
       </div>
